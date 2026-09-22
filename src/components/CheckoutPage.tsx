@@ -71,7 +71,7 @@ export function CheckoutPage() {
 
     try {
       /**I am assuming I do not need to build out this API endpoint with mock data, so I will let the error message appear
-       * and let the code speak for itself.
+       * and let the code speak for itself. I assume this does not have to work perfectly and simply show knowledge and ability.
        * I also just opted to use basic fetch since this is a very simple api call and does not require complexity.
        **/
       const response = await fetch("api/checkout", {

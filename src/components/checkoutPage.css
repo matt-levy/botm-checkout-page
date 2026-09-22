@@ -38,8 +38,9 @@ section {
 }
 
 .order-button {
-  height: 32px;
-  width: 100px;
+  height: 48px;
+  width: 112px;
   border: 2px solid teal;
   cursor: pointer;
+  border-radius: 8px;
 }
