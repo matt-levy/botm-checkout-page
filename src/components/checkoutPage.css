@@ -1,0 +1,45 @@
+.main-page {
+  justify-content: baseline;
+  margin: 16px 32px;
+}
+
+section {
+  margin-bottom: 48px;
+}
+.books-list-section {
+  justify-content: center;
+}
+.books-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.book-item {
+  display: flex;
+  align-items: flex-start;
+  max-width: 500px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 16px;
+  gap: 64px;
+}
+
+.book-item img {
+  margin: 16px;
+  object-fit: cover;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-button {
+  height: 32px;
+  width: 100px;
+  border: 2px solid teal;
+  cursor: pointer;
+}
